@@ -31,7 +31,7 @@ def date_to_string(year: int, month: int, day: int):
                         else:
                             if datetime.date(year, month, day).weekday() == 6:
                                 day_name = "Sunday"
-                                
+
 
     if month == 1:
         month_name = "January"
